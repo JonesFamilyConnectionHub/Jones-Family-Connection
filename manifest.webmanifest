@@ -1,0 +1,8 @@
+{
+  "name": "Jones Family Connections",
+  "short_name": "Jones Connections",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f5",
+  "theme_color": "#202124"
+}
