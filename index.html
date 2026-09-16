@@ -21,7 +21,7 @@ h1{font-size:32px;margin:5px 0}.sub{color:var(--muted);margin:0 0 18px}
 .word{width:100%;height:70px;border:0;border-radius:10px;background:#eeeDE8;font-weight:800;font-size:clamp(10px,3.1vw,15px);line-height:1.08;padding:5px 3px;cursor:pointer;overflow-wrap:anywhere;word-break:normal}
 .word.sel{background:#333;color:#fff;transform:translateY(-2px)}
 .controls{display:flex;gap:7px;margin-top:14px;flex-wrap:wrap}
-.controls button,.primary{border:1px solid var(--line);background:#fff;border-radius:11px;padding:12px 13px;font-weight:800;cursor:pointer}
+.controls button,.primary{border:1px solid var(--line);background:#fff;border-radius:11px;padding:12px 13px;font-weight:800;cursor:pointer}.controls #submit{min-width:150px}.controls #submit:disabled{background:#e9e9e6;color:#555;border-color:#cfcfca;opacity:1;cursor:not-allowed}
 .primary{background:var(--ink);color:#fff;border-color:var(--ink);flex:1}
 .status{text-align:center;margin:13px 0;font-weight:700;min-height:22px}
 .solved{display:grid;gap:8px;margin-bottom:10px}.group{border-radius:12px;padding:12px;text-align:center}.group b{display:block}
@@ -39,7 +39,7 @@ h1{font-size:32px;margin:5px 0}.sub{color:var(--muted);margin:0 0 18px}
 <section id="play"><div class="panel">
 <p class="instructions">Select <b>four words</b> that belong together, then submit.</p>
 <div id="solved" class="solved"></div><div id="grid" class="grid"></div>
-<div class="controls"><button id="shuffle">Shuffle</button><button id="hint">Hint</button><button id="submit" class="primary">Submit Group</button></div><div class="controls"><button id="share" class="primary">📤 Share This Puzzle</button></div>
+<div class="controls"><button id="shuffle">Shuffle</button><button id="hint">Hint</button><button id="submit" class="primary">ENTER</button></div><div class="controls"><button id="share" class="primary">📤 Share This Puzzle</button></div>
 <div id="status" class="status" aria-live="polite"></div>
 </div></section>
 
